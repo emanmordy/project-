@@ -1,0 +1,369 @@
+  @font-face{
+    font-family: oswald;
+    src: url("../fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/Oswald/Oswald-VariableFont_wght.ttf");
+  }
+
+  *{   
+   
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h2,p{
+    font-family: oswald;
+   
+}
+/*begin of nav*/
+nav{
+    background-color: black;
+
+}
+nav a{
+color: white;
+background-color: black;
+
+display: inline-block;
+padding: 10px 15px;
+}
+nav a :hover{
+    background-color: #ccc;
+    color: white;
+}
+.lasticon{
+float: right;
+}
+/*begin of section*/
+section{
+text-align: center;
+padding: 50px 0px;
+
+}
+section h1{
+font-size: 45px;
+font-weight: 900;
+}
+section p{
+padding: 20px 0px;
+}
+section p span{
+    background-color: black;
+    color: white;
+    padding: 0px 5px;
+}
+/*begin of header*/
+header{
+position: relative;
+
+}
+header section{
+position: absolute;
+top: 40%;
+left: 50px;
+color: white;
+text-align: left;
+
+}
+header section h1{
+font-size: 60px;
+letter-spacing: 3px;
+padding: 20px 0px;
+}
+
+header section h2{
+font-size: 45px;
+letter-spacing: 3px;
+}
+
+  header section button {
+padding: 20px;
+background-color: rgba(160, 160, 160, 0.8);
+border: none;
+font-weight: bold;
+
+  }
+  header section button:hover{
+    background-color: rgba(160, 160, 160, 0.9);
+  }
+
+/*begin of main*/
+main{
+ 
+
+}
+main #leftside{
+    display: inline-block;
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+   padding: 20px;
+}
+main #leftside article{
+background-color: white;
+padding: 0px 20px;
+margin: 20px 0px;
+
+}
+main #leftside article h2{
+text-align: center;
+
+}
+main #leftside article p{
+text-align: center;
+
+
+}
+main #leftside article p span{
+color: gray;
+}
+
+main #leftside article .par{
+font-family: Open Sans;
+text-align: left;
+text-align: justify;
+font-size: 18px;
+
+}
+main #leftside article .par span{
+    font-weight: bold;
+    color: black;
+}
+ .buttonsdiv{
+    padding: 40px 20px;
+
+}
+.likeb{
+float: left;
+background-color: white;
+border: 1px solid gray;
+padding: 10px;
+color: black;
+font-weight: bold;
+
+}
+.likeb:hover{
+background-color: gray;
+color: black;
+
+
+}
+.repb{
+float: right;
+background-color: black;
+border: none;
+color: white;
+padding: 10px;
+font-weight: bold;
+}
+.rebp:hover{
+background-color: #302d2d;
+color: black;
+
+}
+.repb span{
+    background-color: white;
+    color: black;
+    padding: 0px 5px;
+}
+
+
+main#leftside article.articlefooter .line{
+border: 2px solid gray;
+padding: 20px;
+}
+
+main#leftside article.articlefooter{
+
+
+}
+ .img{
+float: left;
+width: 10%;
+display: inline-block;
+margin: 5px 0px;
+}
+
+.texted{
+  float: left;
+display: inline-block;
+padding: 10px;
+}
+hr{
+  opacity: 50%;
+  padding-bottom: 5px;
+}
+
+
+main#leftside article.articlefooter.textd p{
+  text-align: left;
+  padding: 10px 30px;
+
+}
+
+
+main #rightside{
+display: inline-block;
+float: right;
+width: 30%;
+background-color: #F1F1F1;
+padding: 20px;
+}
+
+main #rightside #girlsection{
+  padding: 20px 0px;
+  margin-top: -1620px
+} 
+main #rightside #girlsection div{
+  background-color: black;
+  color: white;
+padding:15px ;
+margin-top: -10px;
+
+}
+main #rightside #girlsection div p{
+padding-bottom: 15px;
+
+}
+
+main #rightside article{
+margin-bottom: 20px;
+
+}
+main #rightside article .articleheading{
+background-color: black;
+color: white;
+padding: 20px;
+
+}
+main #rightside article .articlebody{
+padding: 20px;
+background-color: white;
+height: auto;
+overflow: auto;
+
+}
+
+main #rightside article .b1 .articledes {
+  padding: 10px;
+}
+main #rightside article .b1  .articledes .imgdes{
+float: left;
+width: 25%;
+
+}
+main #rightside article .b1 .articledes .textdes{
+float: right;
+width:75%;
+padding: 0px 20px;
+}
+main #rightside article .b1 .articledes:hover{
+  background-color:#ccc;
+}
+
+main #rightside article .b2{
+  padding: 20px;
+}
+
+main #rightside article .b2{
+  text-align: center;
+  background-color: #ccc;
+  padding: 50px;
+}
+
+main #rightside article .b3{
+padding: 20px;
+
+}
+
+main #rightside article .b3 span{
+background-color: #ccc;
+margin: 10px 5px;
+display: inline-block;
+padding: 0px 5px;
+}
+
+main #rightside article .b3  .firspan{
+  background-color: black;
+  color: white;
+}
+
+main #rightside article .b4{
+padding: 10px;
+
+}
+
+main #rightside article .b4  img{
+display: inline-block;
+padding:5px ;
+}
+
+main #rightside article .b5 {
+padding: 20px;
+font-size: 25px;
+}
+main #rightside article .b5 i{
+ 
+}
+main #rightside article .b5 i:hover {
+color: grey;
+}
+
+main #rightside article .b6{
+padding: 20px;
+
+}
+main #rightside article .b6 form{
+
+}
+main #rightside article .b6 form label{
+display: block;
+width: 100%;
+
+} 
+main #rightside article .b6 form input{
+  display: block;
+  width: 100%;
+  margin: 15px 0px;
+  padding: 10px;
+}
+main #rightside article .b6 form button{
+  display: block;
+  width: 100%;
+  background-color: #F44336;
+  text-align: center;
+  color: white;
+  padding: 13px;
+  border: none;
+
+}
+main #rightside article .b6 form button:hover{
+  background-color: #CCCCCC;
+  color: black;
+}
+.cl{
+    clear: both;
+    content: "";
+}
+/*begin of footer*/
+footer{
+    background-color: #616161;
+    color: white;
+    padding: 30px;
+}
+footer .b1{
+background-color: black;
+color: white;
+padding: 2opx;
+border: none;
+text-decoration: none;
+}
+footer p{
+font-family: "Open Sans";
+padding: 40px 0px;
+font-size: 18px;
+}
+footer p a{
+color: white;
+}
+footer .b1:hover{
+  background-color: #CCCCCC;
+  color: black;
+}
