@@ -367,3 +367,22 @@ footer .b1:hover{
   background-color: #CCCCCC;
   color: black;
 }
+@media screen and (max-width: 600px) {
+  header section{
+
+top: 20%;
+
+
+}
+header section h1{
+font-size: 40px;
+
+header section h2{
+font-size: 30px;
+  }
+main #leftside,rightside{
+    display: block;
+    float: none;
+    width: 100%;
+   
+}
