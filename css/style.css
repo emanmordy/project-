@@ -376,14 +376,14 @@ footer .b1:hover{
 }
 
     header section h1{
-      letter-spacing: 10px;
-    font-size: 35px;
+      letter-spacing: 12px;
+    font-size: 25px;
     
     }
   
     header section h2{
-    font-size: 30px;
-    letter-spacing: 10px;
+    font-size: 20px;
+    letter-spacing: 12px;
     }
    header section button {
  margin-top: -8px
