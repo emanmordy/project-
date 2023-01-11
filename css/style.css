@@ -209,7 +209,7 @@ padding: 20px;
 
 main #rightside #girlsection{
   padding: 20px 0px;
-  
+   margin-top: -1620px
 } 
 main #rightside #girlsection div{
   background-color: black;
@@ -389,5 +389,10 @@ footer .b1:hover{
       float:none;
       width: 100%;
     }
+  main #rightside #girlsection{
+  
+   margin-top: -1px
+} 
 }
+
  
